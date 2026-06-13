@@ -5,7 +5,7 @@ from __future__ import annotations
 import json
 import pytest
 
-from argocd_parser import (
+from src.argocd_parser import (
     ArgoApp,
     HealthStatus,
     ResourceStatus,

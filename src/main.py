@@ -7,8 +7,8 @@ import argparse
 import json
 import sys
 
-from argocd_parser import ArgoApp, get_sync_failure_reasons, parse_argocd_app
-from llm import LLMClient
+from src.argocd_parser import ArgoApp, get_sync_failure_reasons, parse_argocd_app
+from src.llm import LLMClient
 
 
 SYSTEM_PROMPT = (
